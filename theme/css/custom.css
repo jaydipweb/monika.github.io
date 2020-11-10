@@ -1,0 +1,125 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+section .section-title {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+    border-radius: 2px solid;
+}
+
+.jumbotron{
+    background-color:#ffffff;
+    border: 1px soild #000000;
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.frontside{
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #000000 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    
+}
+
+.contact{
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+/*.mx-auto p{
+    color: #ffffff;
+}*/
+
+.row.row1{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.row.row2{
+    margin:0px !important;
+    padding:0px !important;
+}
+
+.card-body p{
+        text-align: justify;
+}
+
+h5{
+    color: #ffffff;
+}
+
+h6{
+    color: #000000;
+}
+
+a{
+    color: #000000;
+}
+
+.social i{
+    color: white;
+}
+
